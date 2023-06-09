@@ -1,5 +1,7 @@
 # React Skeleton
 
+[![npm version](https://badge.fury.io/js/react-skeleton-state.svg)](https://badge.fury.io/js/react-skeleton-state)
+
 Show a loading skeleton of your content animated before your content arrived from e.g. API or lazy loading
 
 ## Installation

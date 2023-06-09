@@ -1,6 +1,6 @@
 {
   "name": "react-skeleton-state",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Show a skeleton placeholder of your content before your data arrives",
   "main": "dist/ReactSkeleton.js",
   "types": "dist/ReactSkeleton.d.ts",
@@ -9,6 +9,10 @@
     "build": "tsc",
     "release": "tsc && npm publish"
 
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tommyjepsen/react-skeleton-state.git"
   },
   "files": [
     "dist"
@@ -21,7 +25,7 @@
     "loading",
     "placeholder"
   ],
-  "author": "Tommy Jepsen - tommy@tommyjepsen.com",
+  "author": "Tommy Jepsen <tommy@tommyjepsen.com>",
   "license": "MIT",
   "dependencies": {
     "react": "^18.2.0"
