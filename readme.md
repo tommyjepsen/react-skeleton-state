@@ -8,14 +8,18 @@ Show a loading skeleton of your content animated before your content arrived fro
 npm install --save react-skeleton-state
 ```
 
+```sh
+yarn add react-skeleton-state
+```
+
 ## Usage
 
 ```js
 import ReactSkeleton from 'react-skeleton-state';
 
-<ReactSkeleton width={200} fontSize={'1rem'}  variant="text"></ReactSkeleton>
+<ReactSkeleton width={200} fontSize={'1rem'} variant="text"></ReactSkeleton>
 <ReactSkeleton width={50} height={50} variant="circle"></ReactSkeleton>
-<ReactSkeleton width={200} fontSize={'1rem'}  variant="text"></ReactSkeleton>
+<ReactSkeleton width={200} fontSize={'1rem'} variant="text"></ReactSkeleton>
 <ReactSkeleton width={200} height={200} variant="rectangle"></ReactSkeleton>
 ```
 
