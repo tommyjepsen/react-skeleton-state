@@ -1,0 +1,32 @@
+{
+  "name": "react-skeleton-state",
+  "version": "1.0.0",
+  "description": "Show a skeleton placeholder of your content before your data arrives",
+  "main": "dist/ReactSkeleton.js",
+  "types": "dist/ReactSkeleton.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "release": "tsc && npm publish"
+
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "react",
+    "typescript",
+    "component",
+    "skeleton",
+    "loading",
+    "placeholder"
+  ],
+  "author": "Tommy Jepsen - tommy@tommyjepsen.com",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  }
+}
