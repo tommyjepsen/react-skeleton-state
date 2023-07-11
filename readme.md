@@ -4,6 +4,9 @@
 
 Show a loading skeleton of your content animated before your content arrived from e.g. API or lazy loading
 
+
+![Example](https://raw.githubusercontent.com/tommyjepsen/react-skeleton-state/master/react-skeleton-example.png)
+
 ## Installation
 
 ```sh
@@ -30,11 +33,11 @@ import ReactSkeleton from "react-skeleton-state";
 
 | Prop                 | Type      | Default | Description                           |
 | -------------------- | --------- | ------- | ------------------------------------- |
-| width                | number    | "4px" | The width of the skeleton        |
-| height               | number    | "4px"  | The height of your skeleton      |
+| width                | number    | 4 | The width of the skeleton PX        |
+| height               | number    | 4  | The height of your skeleton PX      |
 | variant              | string    | "rectangle" | Either "rectangle", "circle" or "text"           |
 | fontSize             | string    | null       | fontSize if variant is text          |
-| borderRadius         | number    | 4px     | Border radius of the skeleton          |
-| backgroundColorStart | string    | #efefef | Start color state for animation   |
-| backgroundColorEnd   | number    | #e4e4e4  | End color state for animation |
+| borderRadius         | number    | 4     | Border radius of the skeleton PX          |
+| backgroundColorStart | string    | "#efefef" | Start color state for animation   |
+| backgroundColorEnd   | string    | "#e4e4e4"  | End color state for animation |
 | children             | reactNode | null    | Include any react children                  |
